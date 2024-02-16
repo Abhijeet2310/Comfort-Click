@@ -195,7 +195,11 @@
                 </span>
               </p>
             {%- endif -%}
-
+<div>
+            <p>
+              {{ card_product.description }}
+            </p>
+          </div>
             {% render 'price', product: card_product, price_class: '' %}
           </div>
         </div>
